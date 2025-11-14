@@ -1,0 +1,17 @@
+Q1. A residential water board charges customers based on the volume of water consumed
+during the billing period. The first 15 kiloliters (KL) are charged at ₹2 per KL, the next 20
+KL are charged at ₹5 per KL, and any usage above 35 KL is charged at ₹10 per KL. Every
+customer is also required to pay a fixed service charge of ₹50. Assume that no customer    
+consumes a negative amount of water.
+
+
+
+
+
+Write a script t   hat calculates and displays the water bill for each household that submitted
+meter readings     yesterday. You should accept from the user the number of kiloliters used for
+each household. The program should display the charge for the current household and should
+also calculate and display the running total of all bills generated.
+The program must use a function calculateBill() to determine the charge for each household.
+Input should be obtained from the user through a text input field, and the script should
+validate that the user enters a non-negative numeric value.
